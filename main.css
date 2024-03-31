@@ -12,16 +12,37 @@ header {
     color: white;
 }
 
+header,
+h2{
+    font-family: "Bungee", cursive;
+}
+
+body{
+    font-family: "Roboto", cursive;
+}
+
 header li {
     padding: 16px;
     color: white;
     display: inline;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header li a{
     color:white;
     text-decoration: none;
+}
+
+section h2{
+    font-weight: normal;
+}
+
+section{
+    color: #182c61;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 header li a:hover{
@@ -34,9 +55,36 @@ header li a:hover{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.marcas img {
+    height: 24px;
+    width: auto;
+}
+
+.marcas li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;   
+}
+
+section h2,
+section p{
+    margin-bottom: 8px;
+}
+
+.frente_loja{
+    margin-right: 32px;
+}
